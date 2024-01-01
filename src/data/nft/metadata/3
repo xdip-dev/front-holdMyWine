@@ -1,0 +1,12 @@
+{
+    "id": 3,
+    "name": "mouton-cadet-heritage",
+    "description": "Mouton Cadet Heritage",
+    "grappe": "Rose Grappe",
+    "year": 2020,
+    "saveur": [
+        "Tanins Fin",
+        "Fruit Noir",
+        "Notes de torréfaction"
+    ]
+}

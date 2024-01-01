@@ -1,3 +1,5 @@
+import { Address } from "wagmi";
+export const address = "0xc6843317751ca4C8A513548769dB7B19c32f4d34" as Address;
 export const abi = [
     {
         inputs: [
@@ -664,4 +666,4 @@ export const abi = [
         stateMutability: "view",
         type: "function",
     },
-];
+] as const;

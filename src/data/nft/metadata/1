@@ -1,0 +1,12 @@
+{
+    "id": 1,
+    "name": "ailes-de-paloumey",
+    "description": "Ailes de Paloumey",
+    "grappe": "Fake Grappe",
+    "year": 2017,
+    "saveur": [
+        "Fruité",
+        "Gourmant",
+        "Intense"
+    ]
+}

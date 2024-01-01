@@ -1,0 +1,12 @@
+{
+    "id": 2,
+    "name": "chateau-campillot",
+    "description": "Château Campillot",
+    "grappe": "Belle Grappe",
+    "year": 2018,
+    "saveur": [
+        "Fruité",
+        "Gourmant",
+        "Intense"
+    ]
+}
