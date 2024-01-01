@@ -16,8 +16,11 @@ export default function DetailNFT({ params }: { params: { id: string } }) {
                     <span className="text-sm text-gray-600">Grappe : {data.grappe}</span>
                     <span className="text-sm text-gray-600">Annee : {data.year}</span>
                     <div className="flex-grow">
-                        {data.saveur.map((saveur) => (
-                            <div className="inline border-2 rounded-full bg-stone-600 mx-1 font-medium text-white">
+                        {data.saveur.map((saveur, index) => (
+                            <div
+                                key={index}
+                                className="inline border-2 rounded-full bg-stone-600 mx-1 font-medium text-white"
+                            >
                                 <span className="px-2 py-1">{saveur}</span>
                             </div>
                         ))}
