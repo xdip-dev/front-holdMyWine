@@ -26,7 +26,7 @@ const NftItemBox = ({ item }: { item: NftMetadata }) => {
                 <p className="text-gray-500 text-sm mt-2">{item.description}</p>
                 <div className="mt-4">
                     <Providers>
-                        <PriceNft id={item.id} />
+                        <PriceNft id={item.properties.id} />
                     </Providers>
                 </div>
             </div>
